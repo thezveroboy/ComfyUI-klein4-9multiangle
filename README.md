@@ -1,6 +1,6 @@
 # ComfyUI-klein4&9multiangle
 
-![comfy-random](https://github.com/thezveroboy/ComfyUI-klein4-9multiangle/blob/main/image.jpg)
+![comfy-random](https://github.com/thezveroboy/ComfyUI-klein4-9multiangle/blob/main/image1.jpg)
 
 ## Installation
 1. Clone into `ComfyUI/custom_nodes/`.
@@ -53,4 +53,5 @@ Klein4&9 MultiAngle Prompt 是 ComfyUI 的一个节点，它能让你快速在�
 -最终提示词总是以换行符结尾（方便后续处理）
 
 重要说明：这个节点完全依赖模型自身的训练数据，不依赖任何 LoRA。但如果你搭配合适的视角或多角度 LoRA，使用效果会更好。
+
 
