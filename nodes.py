@@ -5,7 +5,7 @@ class KleinMultiAnglePrompt:
             "required": {
                 "base_prompt": ("STRING", {
                     "multiline": True,
-                    "default": "Important, keep the subject's id, clothes, facial features, pose, and hairstyle identical. Ensure that other elements in the background also change to complement the subject's new imposing presence.\nEnsure that the lighting and overall composition reinforce this effect of grandeur and power within the new setting.\nMaintain the original pose, body type and soft figure and lighting."
+                    "default": "Important, keep the subject's id, clothes, facial features, face marks, body type, and hairstyle identical. Ensure that other elements in the background also change to complement the subject's new imposing presence.\nEnsure that the lighting and overall composition reinforce this effect of grandeur and power within the new setting.\nKeep same overall lighting and shadows and tint.\nMaintain the subject's original pose."
                 }),
                 "vertical_angle": (["Top angle", "Eye level", "Bottom angle"], {"default": "Eye level"}),
                 "horizontal_view": ([
@@ -24,7 +24,8 @@ class KleinMultiAnglePrompt:
                     "zoom in",
                     "as is without prompt",
                     "zoom out",
-                    "full body"
+                    "full body",
+                    "extremely wide"
                 ], {"default": "as is without prompt"}),
             }
         }
@@ -67,7 +68,8 @@ class KleinMultiAnglePrompt:
             "zoom in": "Zoomed in view, the camera pulled closer to the subject to highlight specific elements and reduce surrounding space.",
             "as is without prompt": "",
             "zoom out": "Zoomed out view, the camera pulled back from the subject, revealing more of the environment and context around it.",
-            "full body": "Full body shot, entire figure visible from head to toe, wide enough framing to show the complete subject and some surrounding space, natural proportions."
+            "full body": "Full body shot, entire figure visible from head to toe, wide enough framing to show the complete subject and some surrounding space, natural proportions.",
+            "extremely wide": "Extremely wide shot, the camera pulled extremely far back from the subject, capturing vast expansive scenery and environment, with the subject as a tiny element in the immense frame."
         }
 
         # Формируем ключ строго без лишних пробелов
