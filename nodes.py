@@ -5,7 +5,7 @@ class KleinMultiAnglePrompt:
             "required": {
                 "base_prompt": ("STRING", {
                     "multiline": True,
-                    "default": "Important, keep the subject's id, clothes, facial features, face marks, body type, and hairstyle identical. Ensure that other elements in the background also change to complement the subject's new imposing presence.\nEnsure that the lighting and overall composition reinforce this effect of grandeur and power within the new setting.\nKeep same overall lighting and shadows and tint.\nMaintain the subject's original pose."
+                    "default": "Important, keep the subject's id, clothes, facial features, body type, and hairstyle identical. Ensure that other elements in the background also change to complement the subject's new imposing presence.\nEnsure that the lighting and overall composition reinforce this effect of grandeur and power within the new setting.\nKeep same overall lighting and shadows and tint.\nMaintain the subject's original pose."
                 }),
                 "vertical_angle": (["Top angle", "Eye level", "Bottom angle"], {"default": "Eye level"}),
                 "horizontal_view": ([
@@ -110,3 +110,4 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "KleinMultiAnglePrompt": "Klein4&9 MultiAngle Prompt"
 }
+
